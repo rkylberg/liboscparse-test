@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9B6237C273CEBA60054A7B5 /* liboscparse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B62372273CEBA60054A7B5 /* liboscparse.framework */; };
+		D9B62381273CEBA60054A7B5 /* liboscparseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B62380273CEBA60054A7B5 /* liboscparseTests.m */; };
+		D9B62383273CEBA60054A7B5 /* liboscparse.h in Headers */ = {isa = PBXBuildFile; fileRef = D9B62375273CEBA60054A7B5 /* liboscparse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9B6239F273CEC030054A7B5 /* lop_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = D9B6238D273CEC030054A7B5 /* lop_internal.h */; };
+		D9B623A0273CEC030054A7B5 /* pattern_match.c in Sources */ = {isa = PBXBuildFile; fileRef = D9B6238E273CEC030054A7B5 /* pattern_match.c */; };
+		D9B623A1273CEC030054A7B5 /* lop_endian.h in Headers */ = {isa = PBXBuildFile; fileRef = D9B62390273CEC030054A7B5 /* lop_endian.h */; };
+		D9B623A2273CEC030054A7B5 /* lop_errors.h in Headers */ = {isa = PBXBuildFile; fileRef = D9B62391273CEC030054A7B5 /* lop_errors.h */; };
+		D9B623A3273CEC030054A7B5 /* lop_osc_types.h in Headers */ = {isa = PBXBuildFile; fileRef = D9B62392273CEC030054A7B5 /* lop_osc_types.h */; };
+		D9B623A4273CEC030054A7B5 /* lop_types.h in Headers */ = {isa = PBXBuildFile; fileRef = D9B62393273CEC030054A7B5 /* lop_types.h */; };
+		D9B623A5273CEC030054A7B5 /* lop_throw.h in Headers */ = {isa = PBXBuildFile; fileRef = D9B62394273CEC030054A7B5 /* lop_throw.h */; };
+		D9B623A6273CEC030054A7B5 /* lop_macros.h in Headers */ = {isa = PBXBuildFile; fileRef = D9B62395273CEC030054A7B5 /* lop_macros.h */; };
+		D9B623A7273CEC030054A7B5 /* lop_lowlevel.h in Headers */ = {isa = PBXBuildFile; fileRef = D9B62396273CEC030054A7B5 /* lop_lowlevel.h */; };
+		D9B623A9273CEC030054A7B5 /* server.c in Sources */ = {isa = PBXBuildFile; fileRef = D9B62398273CEC030054A7B5 /* server.c */; };
+		D9B623AB273CEC030054A7B5 /* method.c in Sources */ = {isa = PBXBuildFile; fileRef = D9B6239A273CEC030054A7B5 /* method.c */; };
+		D9B623AC273CEC030054A7B5 /* blob.c in Sources */ = {isa = PBXBuildFile; fileRef = D9B6239B273CEC030054A7B5 /* blob.c */; };
+		D9B623AD273CEC030054A7B5 /* timetag.c in Sources */ = {isa = PBXBuildFile; fileRef = D9B6239C273CEC030054A7B5 /* timetag.c */; };
+		D9B623AE273CEC030054A7B5 /* lop_types_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = D9B6239D273CEC030054A7B5 /* lop_types_internal.h */; };
+		D9B623AF273CEC030054A7B5 /* message.c in Sources */ = {isa = PBXBuildFile; fileRef = D9B6239E273CEC030054A7B5 /* message.c */; };
+		D9E6663528189F300002ADCF /* lop.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E6663428189F300002ADCF /* lop.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9B6237D273CEBA60054A7B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9B62369273CEBA60054A7B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9B62371273CEBA60054A7B5;
+			remoteInfo = liboscparse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9B62372273CEBA60054A7B5 /* liboscparse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = liboscparse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9B62375273CEBA60054A7B5 /* liboscparse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = liboscparse.h; sourceTree = "<group>"; };
+		D9B62376273CEBA60054A7B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9B6237B273CEBA60054A7B5 /* liboscparseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = liboscparseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9B62380273CEBA60054A7B5 /* liboscparseTests.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = liboscparseTests.m; sourceTree = "<group>"; };
+		D9B62382273CEBA60054A7B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9B6238D273CEC030054A7B5 /* lop_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lop_internal.h; sourceTree = "<group>"; };
+		D9B6238E273CEC030054A7B5 /* pattern_match.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pattern_match.c; sourceTree = "<group>"; };
+		D9B62390273CEC030054A7B5 /* lop_endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lop_endian.h; sourceTree = "<group>"; };
+		D9B62391273CEC030054A7B5 /* lop_errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lop_errors.h; sourceTree = "<group>"; };
+		D9B62392273CEC030054A7B5 /* lop_osc_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lop_osc_types.h; sourceTree = "<group>"; };
+		D9B62393273CEC030054A7B5 /* lop_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lop_types.h; sourceTree = "<group>"; };
+		D9B62394273CEC030054A7B5 /* lop_throw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lop_throw.h; sourceTree = "<group>"; };
+		D9B62395273CEC030054A7B5 /* lop_macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lop_macros.h; sourceTree = "<group>"; };
+		D9B62396273CEC030054A7B5 /* lop_lowlevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lop_lowlevel.h; sourceTree = "<group>"; };
+		D9B62398273CEC030054A7B5 /* server.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = server.c; sourceTree = "<group>"; };
+		D9B6239A273CEC030054A7B5 /* method.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = method.c; sourceTree = "<group>"; };
+		D9B6239B273CEC030054A7B5 /* blob.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = blob.c; sourceTree = "<group>"; };
+		D9B6239C273CEC030054A7B5 /* timetag.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = timetag.c; sourceTree = "<group>"; };
+		D9B6239D273CEC030054A7B5 /* lop_types_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lop_types_internal.h; sourceTree = "<group>"; };
+		D9B6239E273CEC030054A7B5 /* message.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = message.c; sourceTree = "<group>"; };
+		D9E6663428189F300002ADCF /* lop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lop.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9B6236F273CEBA60054A7B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9B62378273CEBA60054A7B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B6237C273CEBA60054A7B5 /* liboscparse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9B62368273CEBA60054A7B5 = {
+			isa = PBXGroup;
+			children = (
+				D9B6238C273CEC030054A7B5 /* src */,
+				D9B62374273CEBA60054A7B5 /* liboscparse */,
+				D9B6237F273CEBA60054A7B5 /* liboscparseTests */,
+				D9B62373273CEBA60054A7B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9B62373273CEBA60054A7B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9B62372273CEBA60054A7B5 /* liboscparse.framework */,
+				D9B6237B273CEBA60054A7B5 /* liboscparseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9B62374273CEBA60054A7B5 /* liboscparse */ = {
+			isa = PBXGroup;
+			children = (
+				D9B62375273CEBA60054A7B5 /* liboscparse.h */,
+				D9B62376273CEBA60054A7B5 /* Info.plist */,
+			);
+			path = liboscparse;
+			sourceTree = "<group>";
+		};
+		D9B6237F273CEBA60054A7B5 /* liboscparseTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9B62380273CEBA60054A7B5 /* liboscparseTests.m */,
+				D9B62382273CEBA60054A7B5 /* Info.plist */,
+			);
+			path = liboscparseTests;
+			sourceTree = "<group>";
+		};
+		D9B6238C273CEC030054A7B5 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				D9E6663428189F300002ADCF /* lop.h */,
+				D9B6238D273CEC030054A7B5 /* lop_internal.h */,
+				D9B6239D273CEC030054A7B5 /* lop_types_internal.h */,
+				D9B6239B273CEC030054A7B5 /* blob.c */,
+				D9B6239E273CEC030054A7B5 /* message.c */,
+				D9B6239A273CEC030054A7B5 /* method.c */,
+				D9B6238E273CEC030054A7B5 /* pattern_match.c */,
+				D9B62398273CEC030054A7B5 /* server.c */,
+				D9B6239C273CEC030054A7B5 /* timetag.c */,
+				D9B6238F273CEC030054A7B5 /* lop */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		D9B6238F273CEC030054A7B5 /* lop */ = {
+			isa = PBXGroup;
+			children = (
+				D9B62390273CEC030054A7B5 /* lop_endian.h */,
+				D9B62391273CEC030054A7B5 /* lop_errors.h */,
+				D9B62392273CEC030054A7B5 /* lop_osc_types.h */,
+				D9B62393273CEC030054A7B5 /* lop_types.h */,
+				D9B62394273CEC030054A7B5 /* lop_throw.h */,
+				D9B62395273CEC030054A7B5 /* lop_macros.h */,
+				D9B62396273CEC030054A7B5 /* lop_lowlevel.h */,
+			);
+			path = lop;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D9B6236D273CEBA60054A7B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E6663528189F300002ADCF /* lop.h in Headers */,
+				D9B623A5273CEC030054A7B5 /* lop_throw.h in Headers */,
+				D9B623A6273CEC030054A7B5 /* lop_macros.h in Headers */,
+				D9B623A3273CEC030054A7B5 /* lop_osc_types.h in Headers */,
+				D9B62383273CEBA60054A7B5 /* liboscparse.h in Headers */,
+				D9B623A2273CEC030054A7B5 /* lop_errors.h in Headers */,
+				D9B623A7273CEC030054A7B5 /* lop_lowlevel.h in Headers */,
+				D9B623A1273CEC030054A7B5 /* lop_endian.h in Headers */,
+				D9B623A4273CEC030054A7B5 /* lop_types.h in Headers */,
+				D9B6239F273CEC030054A7B5 /* lop_internal.h in Headers */,
+				D9B623AE273CEC030054A7B5 /* lop_types_internal.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D9B62371273CEBA60054A7B5 /* liboscparse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9B62386273CEBA60054A7B5 /* Build configuration list for PBXNativeTarget "liboscparse" */;
+			buildPhases = (
+				D9B6236D273CEBA60054A7B5 /* Headers */,
+				D9B6236E273CEBA60054A7B5 /* Sources */,
+				D9B6236F273CEBA60054A7B5 /* Frameworks */,
+				D9B62370273CEBA60054A7B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = liboscparse;
+			productName = liboscparse;
+			productReference = D9B62372273CEBA60054A7B5 /* liboscparse.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D9B6237A273CEBA60054A7B5 /* liboscparseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9B62389273CEBA60054A7B5 /* Build configuration list for PBXNativeTarget "liboscparseTests" */;
+			buildPhases = (
+				D9B62377273CEBA60054A7B5 /* Sources */,
+				D9B62378273CEBA60054A7B5 /* Frameworks */,
+				D9B62379273CEBA60054A7B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9B6237E273CEBA60054A7B5 /* PBXTargetDependency */,
+			);
+			name = liboscparseTests;
+			productName = liboscparseTests;
+			productReference = D9B6237B273CEBA60054A7B5 /* liboscparseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9B62369273CEBA60054A7B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Line6;
+				TargetAttributes = {
+					D9B62371273CEBA60054A7B5 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					D9B6237A273CEBA60054A7B5 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D9B6236C273CEBA60054A7B5 /* Build configuration list for PBXProject "liboscparse" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9B62368273CEBA60054A7B5;
+			productRefGroup = D9B62373273CEBA60054A7B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9B62371273CEBA60054A7B5 /* liboscparse */,
+				D9B6237A273CEBA60054A7B5 /* liboscparseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9B62370273CEBA60054A7B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9B62379273CEBA60054A7B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9B6236E273CEBA60054A7B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B623AC273CEC030054A7B5 /* blob.c in Sources */,
+				D9B623AF273CEC030054A7B5 /* message.c in Sources */,
+				D9B623A9273CEC030054A7B5 /* server.c in Sources */,
+				D9B623AB273CEC030054A7B5 /* method.c in Sources */,
+				D9B623A0273CEC030054A7B5 /* pattern_match.c in Sources */,
+				D9B623AD273CEC030054A7B5 /* timetag.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9B62377273CEBA60054A7B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B62381273CEBA60054A7B5 /* liboscparseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9B6237E273CEBA60054A7B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9B62371273CEBA60054A7B5 /* liboscparse */;
+			targetProxy = D9B6237D273CEBA60054A7B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D9B62384273CEBA60054A7B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/src",
+					"$(PROJECT_DIR)/liboscparse",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9B62385273CEBA60054A7B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/src",
+					"$(PROJECT_DIR)/liboscparse",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D9B62387273CEBA60054A7B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = liboscparse/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.line6.liboscparse;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D9B62388273CEBA60054A7B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = liboscparse/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.line6.liboscparse;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D9B6238A273CEBA60054A7B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = liboscparseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.line6.liboscparseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D9B6238B273CEBA60054A7B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = liboscparseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.line6.liboscparseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9B6236C273CEBA60054A7B5 /* Build configuration list for PBXProject "liboscparse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9B62384273CEBA60054A7B5 /* Debug */,
+				D9B62385273CEBA60054A7B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9B62386273CEBA60054A7B5 /* Build configuration list for PBXNativeTarget "liboscparse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9B62387273CEBA60054A7B5 /* Debug */,
+				D9B62388273CEBA60054A7B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9B62389273CEBA60054A7B5 /* Build configuration list for PBXNativeTarget "liboscparseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9B6238A273CEBA60054A7B5 /* Debug */,
+				D9B6238B273CEBA60054A7B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9B62369273CEBA60054A7B5 /* Project object */;
+}
